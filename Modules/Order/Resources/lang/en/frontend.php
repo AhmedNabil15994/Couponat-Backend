@@ -1,0 +1,90 @@
+<?php
+
+return [
+    'emails' => [
+        'successfully_booked_start' => ' Course ',
+        'successfully_booked_end' => ' has been successfully booked ',
+        '' => '',
+    ],
+    'show' => [
+        'address' => 'Address',
+        'Checkout' => 'Checkout',
+        'Login to your  account' => 'Login to your  account',
+        'or continue as a guest' => 'or continue as a guest',
+        'Address' => 'Address',
+        'Phone' => 'Phone',
+        'Street no' => 'Street no',
+        'Building no' => 'Building no',
+        'City' => 'City',
+        'Add Land Mark' => 'Add Land Mark',
+        'Order summary' => 'Order summary',
+        'Days' => 'Days',
+        'Total' => 'Total',
+        'Pay' => 'Pay',
+        'amex' => 'AMEX',
+        'area' => 'Area',
+        'back' => 'Back',
+        'block' => 'Block',
+        'bookeey' => 'Bookey',
+        'building' => 'Building',
+        'cash' => 'Cash',
+        'cc' => 'Visa & Master Card',
+        'continue' => 'Continue Shopping',
+        'credit' => 'Visa & Master Card',
+        'date' => 'Select Delivery Date',
+        'date_time' => 'Date & Time',
+        'email' => 'Email',
+        'floor' => 'Floor',
+        'home' => 'Home',
+        'knet' => 'Knet',
+        'message' => 'Write Your Card Message Here',
+        'mobile' => 'Mobile',
+        'new' => [
+            'my_classes' => 'My classes',
+            'success_1' => 'You Order Has Been Accepted Successfully',
+            'success_2' => 'Thanks For using Flowerbox',
+            'success_msg' => 'Thanks for purchase with us, Your classes is ready now!',
+            'title' => 'New Order',
+        ],
+        'no_time' => 'There is no times in this date',
+        'note' => 'Note',
+        'online_payment' => 'Online Payment',
+        'order_now' => 'Order Now',
+        'payment' => 'Payment',
+        'payments' => 'Payment Option',
+        'street' => 'Street',
+        'time' => 'Select Delivery Time',
+        'title' => 'Checkout',
+        'username' => 'Your name',
+    ],
+    'validations' => [
+        'block' => [
+            'required' => 'Please insert block of area',
+        ],
+        'building' => [
+            'required' => 'Please insert building number / name',
+        ],
+        'date' => [
+            'required' => 'Please select date',
+        ],
+        'email' => [
+            'required' => 'Please insert your email',
+        ],
+        'mobile' => [
+            'numeric' => 'Please insert mobile number only digits',
+            'required' => 'Please insert your mobile',
+        ],
+        'name' => [
+            'required' => 'Please insert your name',
+        ],
+        'payment' => [
+            'required' => 'Please select the payment',
+        ],
+        'state_id' => [
+            'required' => 'Please select area',
+        ],
+        'time' => [
+            'required' => 'Please select delivery time',
+        ],
+    ],
+];

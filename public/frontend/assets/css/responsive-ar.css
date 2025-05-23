@@ -1,0 +1,160 @@
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1330px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1150px;
+    }
+
+    .container-fluid {
+        max-width: 1390px;
+    }
+
+    header .form {
+        width: 30%;
+    }
+}
+
+@media (max-width: 991px) {
+
+
+    .owl-theme .owl-nav [class*="owl-"] {
+        display: none
+    }
+
+    .owl-theme .owl-nav [class*="owl-"].owl-next {
+        left: auto;
+        right: -5px;
+        -webkit-transform: translate(20%, -60%);
+        transform: translate(20%, -60%);
+        background: white;
+        background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0)), color-stop(10%, rgba(255, 255, 255, 0.5)));
+        background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.5) 10%);
+    }
+
+    header .form {
+        width: 50%;
+    }
+
+    .footer-home {
+        position: static;
+    }
+
+    .footer-home .mobile-nav {
+        display: block;
+    }
+
+    header .form .btn-search {
+        right: auto;
+        left: 7px;
+        background: #d70b52;
+        color: #fff;
+        border: 0;
+    }
+
+    header .form .btn-filter {
+        opacity: 1;
+        visibility: visible
+    }
+
+    header .form input.form-control {
+        font-size: 12px;
+    }
+
+}
+
+@media (max-width:768px) {
+    .whatsapp-icon {
+        position: fixed;
+        left: 15px;
+        bottom: 100px;
+        z-index: 999;
+    }
+    .whatsapp-icon a img{
+        width: 60px;
+        height: 60px
+    }
+    .footer-page{
+        padding-bottom: 125px
+    }
+
+    .ctg-main {
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 5px;
+    }
+
+    .footer-bottom {
+        padding: 23px 0;
+        background-color: #f7f7f7;
+        margin-bottom: 80px;
+    }
+
+    .d-desk {
+        display: none;
+    }
+
+    .d-mobile {
+        display: block;
+    }
+
+    .log-links {
+        display: flex;
+        justify-content: space-between;
+        border-top: 1px solid #ccc;
+        padding: 20px 0 0;
+        margin-top: 35px;
+        flex-direction: column;
+    }
+
+    .box-form {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .share-save {
+        text-align: left;
+    }
+
+    .item-call-to-action {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .item-call-to-action a {
+        margin: 0;
+    }
+}
+
+@media (max-width:450px) {
+    .footer-page .mobile-nav li span {
+        display: none;
+        font-size: 9px;
+    }
+
+    .cart-item {
+        display: flex;
+        align-content: center;
+        border-bottom: 1px solid #dee2e6;
+        padding-bottom: 25px;
+        margin-bottom: 25px;
+        align-items: stretch;
+        flex-direction: column;
+    }
+
+    .log-links {
+        display: flex;
+        justify-content: space-between;
+        border-top: 1px solid #ccc;
+        padding: 20px 0 0;
+        margin-top: 35px;
+        flex-direction: column;
+    }
+
+    .box-form {
+        width: 90%;
+        margin: 0 auto;
+    }
+}

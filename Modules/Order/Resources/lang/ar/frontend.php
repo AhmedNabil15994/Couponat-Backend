@@ -1,0 +1,90 @@
+<?php
+
+return [
+    'emails' => [
+        'successfully_booked_start' => ' تم حجز دورة  ',
+        'successfully_booked_end' => ' بنجاح ',
+        '' => '',
+    ],
+    'show'          => [
+        'address'           => 'العنوان',
+        'Checkout' => 'الدفع',
+        'Login to your  account' => 'تسجيل الدخول إلى حسابك',
+        'or continue as a guest' => 'أو الاستمرار كضيف',
+        'Address' => 'العنوان',
+        'Phone' => 'رقم الهاتف',
+        'Street no' => 'رقم الشارع',
+        'Building no' => 'رقم المبني',
+        'City' => 'المدينة',
+        'Add Land Mark' => 'أضف علامة علي الخريطة',
+        'Order summary' => 'ملخص الطلب',
+        'Days' => 'الأيام',
+        'Total' => 'الإجمالي',
+        'Pay' => 'دفع',
+        'amex'              => 'AMEX',
+        'area'              => 'المنطقة',
+        'back'              => 'رجوع للخلف',
+        'block'             => 'القطعة',
+        'bookeey'           => 'بوكي',
+        'building'          => 'المبنى',
+        'cash'              => 'عند التوصيل',
+        'cc'                => 'Visa & Master Card',
+        'continue'          => 'استكمال التسوق',
+        'credit'            => 'Visa & Master Card',
+        'date'              => 'اختر تاريخ',
+        'date_time'         => 'التاريخ و الوقت',
+        'email'             => 'البريد',
+        'floor'             => 'الدور',
+        'home'              => 'الرئيسية',
+        'knet'              => 'Knet',
+        'message'           => 'اترك رسالتك الخاصة',
+        'mobile'            => 'رقم الهاتف',
+        'new'               => [
+            'my_classes'    => 'دوراتي',
+            'success_1'     => 'تم  الطلب بنجاح',
+            'success_2'     => 'شكرا لاستخدامك فلور بوكس',
+            'success_msg'   => 'شكرًا على الشراء معنا ، فصولك جاهزة الآن!',
+            'title'         => 'طلب جديد',
+        ],
+        'no_time'           => 'لا يوجد مواعيد بهذا التاريخ',
+        'note'              => 'ملاحظات',
+        'online_payment'    => 'دفع اون لاين',
+        'order_now'         => 'اطلب الان',
+        'payment'           => 'الدفع',
+        'payments'          => 'خيارات الدفع',
+        'street'            => 'الشارع',
+        'time'              => 'اختر موعد التوصيل',
+        'title'             => 'الدفع',
+        'username'          => 'الاسم الشخصي',
+    ],
+    'validations'   => [
+        'block'     => [
+            'required'  => 'من فضلك ادخل القطعه',
+        ],
+        'building'  => [
+            'required'  => 'من فضلك ادخل رقم البناية',
+        ],
+        'date'      => [
+            'required'  => 'من فضلك اختر التاريخ',
+        ],
+        'email'     => [
+            'required'  => 'من فضلك ادخل البريد',
+        ],
+        'mobile'    => [
+            'numeric'   => 'رقم الهاتف يجب ان يتكون من ارقام فقط',
+            'required'  => 'من فضلك ادخل رقم الهاتف',
+        ],
+        'name'      => [
+            'required'  => 'من فضلك ادخل الاسم',
+        ],
+        'payment'   => [
+            'required'  => 'من فضلك اختر طريقة الدفع',
+        ],
+        'state_id'  => [
+            'required'  => 'من فضلك اختر المنطقة',
+        ],
+        'time'      => [
+            'required'  => 'من فضلك اختر موعد التوصيل',
+        ],
+    ],
+];

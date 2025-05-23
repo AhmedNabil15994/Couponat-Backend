@@ -1,0 +1,6 @@
+@include('apps::Frontend.layouts.head')
+@include('apps::Frontend.layouts.header')
+@include('apps::Frontend.layouts._alerts')
+@yield('content')
+@include('apps::Frontend.layouts.footer')
+@include('apps::Frontend.layouts.scripts')
